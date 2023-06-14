@@ -506,9 +506,51 @@
       <div class="modal-window">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg width="8" height="8" class="modal-close-button-icon">
-            <use href="./images/icons.svg#icon-modal-bg"></use>
+            <use href="./images/icons.svg#icon-Modal-bg"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <!-- Input -->
+        <form class="modal-form">
+          <label  class="label-input">
+            <span>Name</span>
+          <input
+            type="name"
+            name="user-name"
+            class="modal-form-input"
+            placeholder="Name"
+          /></label>
+          
+          <label class="label-input">
+            <span>Phone</span>
+          <input
+            type="tel"
+            name="user-tel"
+            class="modal-form-input"
+            placeholder="Phone"
+          /></label>
+          
+           <label class="label-input">
+            <span>Email</span>
+            <input
+            type="email"
+            name="user-mail"
+            class="modal-form-input"
+            placeholder="Mail"
+          /></label>
+         
+
+          <label class="label-input">
+            <span>Comment</span>
+          <input
+            type="text"
+            class="modal-form-input"
+            placeholder="Text input"
+          /></label>
+         
+
+          <button type="submit" class="modal-button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
