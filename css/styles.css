@@ -1395,7 +1395,7 @@ margin-bottom: 4px;
 }
 
 .label-privacy{
-  font-style: 12px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customers-color);
@@ -1411,8 +1411,17 @@ margin-bottom: 4px;
   display: inline-flex;
   justify-content: center;
   fill: transparent;
-  
+  align-items: center; 
+
 }
+
+.input-privacy:checked{
+  border-color: var(--text-ocean-color);
+  border: none;
+  fill: var(--text-ocean-color);
+}
+
+
 /*MODAL-BUTTON */
 
 .modal-button{
@@ -1427,7 +1436,7 @@ margin-bottom: 4px;
     cursor: pointer;
     height: 56px;
     align-items: center;
-    max-width: 169px;
+    min-width: 169px;
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
