@@ -1340,6 +1340,11 @@ margin-bottom: 4px;
   
 }
 
+.modal-icon-input{
+  position: relative; 
+
+}
+
 .modal-icon{
   /* position: relative;  */
   position: absolute;
