@@ -1306,12 +1306,10 @@ img {
   outline: transparent; 
 }
 
-.customers-link:focus,
-.customers-link:hover {
-  color: var(--text-ocean-color);
-  border-color: var(--text-ocean-color);
-
-  
+.modal-form-input :checked{
+  background-color: var(--text-ocean-color);
+  border: none;
+  fill: var(--text-cloud-color);
 }
 /* Label */
 .input-for{
