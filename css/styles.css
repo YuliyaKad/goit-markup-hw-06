@@ -1407,6 +1407,7 @@ margin-bottom: 4px;
 
 .privacy-container{
   margin-bottom: 24px;
+  margin-left: 8px;
 }
 
 .label-privacy{
@@ -1427,7 +1428,12 @@ margin-bottom: 4px;
   justify-content: center;
   fill: transparent;
   align-items: center; 
+  
 
+}
+
+.privacy-icon{
+  margin-right: 8px;
 }
 
 .input-privacy:checked{
