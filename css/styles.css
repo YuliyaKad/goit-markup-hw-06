@@ -1308,7 +1308,7 @@ img {
   outline: transparent; 
 }
 .modal-form-input:focus+.modal-icon{
-  fill:var(--text-ocean-color);
+  fill:#4D5AE5;
   
 }
 
@@ -1443,7 +1443,9 @@ margin-bottom: 4px;
 
 }
 
-
+/* .privacy-icon{
+  margin-right: 8px;
+} */
 
 .privacy-policy{
   /* font-family: inherit; */
@@ -1451,7 +1453,13 @@ margin-bottom: 4px;
 
 }
 
-.input-privacy:checked{
+/* .input-privacy:checked{
+  border-color: var(--text-ocean-color);
+  border: none;
+  fill: var(--text-ocean-color);
+} */
+
+.label-privacy:checked+.privacy-icon{
   border-color: var(--text-ocean-color);
   border: none;
   fill: var(--text-ocean-color);
