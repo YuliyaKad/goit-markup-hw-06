@@ -1437,17 +1437,18 @@ margin-bottom: 4px;
   justify-content: center;
   fill: transparent;
   align-items: center; 
-  gap: 8px;
+  margin-right: 8px;
+  
   
 
 }
 
-.privacy-icon{
-  margin-right: 8px;
-}
 
-.privacy-pilicy{
-  color: #4D5AE5;
+
+.privacy-policy{
+  /* font-family: inherit; */
+  color: var(--text-iris-color)
+
 }
 
 .input-privacy:checked{
