@@ -1443,21 +1443,13 @@ margin-bottom: 4px;
 
 }
 
-/* .privacy-icon{
-  margin-right: 8px;
-} */
 
 .privacy-policy{
-  /* font-family: inherit; */
+  
   color: var(--text-iris-color)
 
 }
 
-/* .input-privacy:checked{
-  border-color: var(--text-ocean-color);
-  border: none;
-  fill: var(--text-ocean-color);
-} */
 
 .label-privacy:checked+.label-privacy   {
   background-color: var(--text-ocean-color);
