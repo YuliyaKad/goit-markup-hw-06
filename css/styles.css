@@ -1459,13 +1459,19 @@ margin-bottom: 4px;
   fill: var(--text-ocean-color);
 } */
 
-.label-privacy:checked+.privacy-icon{
-  border-color: var(--text-ocean-color);
+.label-privacy:checked+.label-privacy   {
+  background-color: var(--text-ocean-color);
   border: none;
   fill: var(--text-ocean-color);
+  border-color: 1px solid var(--text-ocean-color);
 }
 
-
+/* .modal-check:checked + .check-text span {
+  background-color: var(--hover-color);
+  border: none;
+  border-color: 1px solid var(--hover-color);
+  fill: var(--cloud-footer-color);
+} */
 /*MODAL-BUTTON */
 
 .modal-button{
