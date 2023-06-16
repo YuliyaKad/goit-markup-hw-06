@@ -1427,7 +1427,7 @@ margin-bottom: 4px;
 
 }
 
-.privacy-span{
+.privacy-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1437,12 +1437,17 @@ margin-bottom: 4px;
   justify-content: center;
   fill: transparent;
   align-items: center; 
+  gap: 8px;
   
 
 }
 
 .privacy-icon{
   margin-right: 8px;
+}
+
+.privacy-pilicy{
+  color: #4D5AE5;
 }
 
 .input-privacy:checked{
