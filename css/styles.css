@@ -1286,6 +1286,8 @@ img {
     border-color: var(--text-iris-color);
   }
 
+  
+
 .modal-fotm-input{
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -1305,12 +1307,21 @@ img {
   padding-left: 38px; 
   outline: transparent; 
 }
+.modal-form-input:focus+.modal-icon{
+  fill:var(--text-ocean-color);
+  
+}
 
-.modal-form-input :checked{
+/* .modal-form-input:focus{
   background-color: var(--text-ocean-color);
   border: none;
   fill: var(--text-cloud-color);
-}
+} 
+ .modal-icon :focus{
+  background-color: var(--text-ocean-color);
+  border: none;
+  fill: var(--text-cloud-color);
+} */
 /* Label */
 .input-for{
   margin-bottom: 8px;
