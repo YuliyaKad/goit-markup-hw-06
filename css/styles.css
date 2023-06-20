@@ -1446,24 +1446,20 @@ margin-bottom: 4px;
 
 .privacy-policy{
   
-  color: var(--text-iris-color)
+  color: var(--text-iris-color);
 
 }
 
 
-.label-privacy:checked+.label-privacy   {
+.input-privacy:checked + .label-privacy .privacy-span  {
   background-color: var(--text-ocean-color);
   border: none;
-  fill: var(--text-ocean-color);
+  fill: var(--text-cloud-color);
   border-color: 1px solid var(--text-ocean-color);
+  
 }
 
-/* .modal-check:checked + .check-text span {
-  background-color: var(--hover-color);
-  border: none;
-  border-color: 1px solid var(--hover-color);
-  fill: var(--cloud-footer-color);
-} */
+
 /*MODAL-BUTTON */
 
 .modal-button{

@@ -3,9 +3,9 @@
 <symbol id="icon-send" viewBox="0 0 38 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M38.4 0l-38.4 18 12.272 3.792 18.928-14.784-14.4 16.176v8.816l6.88-6.688 8.72 2.688 6-28z"></path>
 </symbol>
-<symbol id="icon-checkbox" viewBox="0 0 32 32">
-<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M4 1h24c1.657 0 3 1.343 3 3v24c0 1.657-1.343 3-3 3h-24c-1.657 0-3-1.343-3-3v-24c0-1.657 1.343-3 3-3z"></path>
-</symbol>
+ <symbol id="icon-checkbox" viewBox="0 0 40 32">
+      <path d="M33.782 1.02a3.668 3.668 0 0 1 5.115.039 3.712 3.712 0 0 1 .135 5.141L19.454 30.817a3.674 3.674 0 0 1-4.074.914 3.675 3.675 0 0 1-1.226-.815L1.17 17.862A3.693 3.693 0 0 1-.001 15.22a3.714 3.714 0 0 1 1.077-2.682 3.664 3.664 0 0 1 4.1-.763 3.68 3.68 0 0 1 1.195.857l10.275 10.325 17.042-21.83c.031-.038.063-.074.098-.109h-.005z"/>
+    </symbol>
 <symbol id="icon-line" viewBox="0 0 4 32">
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2222" d="M1.12 1.12v29.778"></path>
 </symbol>
