@@ -1255,7 +1255,16 @@ margin-bottom: 4px;
   fill: var(--text-iris-color);
 }
 .input-for-comment{
-  margin-bottom: 16px;
+margin-bottom: 16px;
+color:rgba(46, 47, 66, 0.4);
+color: var(--text-navy-color, rgba(46, 47, 66, 0.40));
+font-size: 12px;
+font-family: Roboto;
+line-height: 14px;
+letter-spacing: 0.48px;
+}
+.placeholder{
+  color:rgba(46, 47, 66, 0.4);
 }
 
 .user-comment{
